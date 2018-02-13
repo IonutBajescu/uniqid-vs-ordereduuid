@@ -1,0 +1,10 @@
+root@0677fe53b42e:/etc/mysql# du -h /var/lib/mysql/bench/*
+4.0K    /var/lib/mysql/bench/db.opt
+12K     /var/lib/mysql/bench/uniqid_noprimarykey.frm
+112K    /var/lib/mysql/bench/uniqid_noprimarykey.ibd
+12K     /var/lib/mysql/bench/uniqid_primarykey.frm
+73M     /var/lib/mysql/bench/uniqid_primarykey.ibd
+12K     /var/lib/mysql/bench/uuid_noprimarykey.frm
+112K    /var/lib/mysql/bench/uuid_noprimarykey.ibd
+12K     /var/lib/mysql/bench/uuid_primarykey.frm
+337M    /var/lib/mysql/bench/uuid_primarykey.ibd

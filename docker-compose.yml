@@ -1,0 +1,12 @@
+version: "2"
+services:
+  php:
+    build: docker/php
+    volumes:
+      - .:/var/www
+  mysql:
+    image: mysql
+    volumes:
+      - ./bench.sql:/docker-entrypoint-initdb.d/bench.sql
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: 1
